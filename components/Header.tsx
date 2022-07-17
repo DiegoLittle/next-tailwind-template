@@ -7,8 +7,6 @@ import {
     ChartBarIcon,
     CursorClickIcon,
     MenuIcon,
-    PhoneIcon,
-    PlayIcon,
     RefreshIcon,
     ShieldCheckIcon,
     SupportIcon,
@@ -43,10 +41,7 @@ const solutions = [
         icon: RefreshIcon,
     },
 ]
-const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-]
+
 const resources = [
     {
         name: 'Help Center',
@@ -68,15 +63,10 @@ const resources = [
     },
     { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
 ]
-const recentPosts = [
-    { id: 1, name: 'Boost your conversion rate', href: '#' },
-    { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-    { id: 3, name: 'Improve your customer experience', href: '#' },
-]
 
-function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ')
-}
+// function classNames(...classes: string[]) {
+//     return classes.filter(Boolean).join(' ')
+// }
 
 export default function Example() {
     return (
