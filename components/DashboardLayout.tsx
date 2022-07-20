@@ -28,7 +28,8 @@ const DashboardLayout = ({children}:Props) => {
   return (
     <div className='flex font-inter h-screen w-screen bg-[#141518] p-5'>
         <Sidebar />
-        <div className=' ml-[26px] h-[80px] bg-primary-dark-gray rounded-[20px] flex w-full'>
+        <div className="flex flex-col ml-[26px] w-full h-full">
+        <div className='  h-[80px] bg-primary-dark-gray rounded-[20px] flex w-full'>
           <div className=' px-5 my-auto text-[24px]  text-white b'>
             {path}
           </div>
@@ -42,6 +43,9 @@ const DashboardLayout = ({children}:Props) => {
           </div>
         </div>
         {children}
+        </div>
+
+        
     </div>
   )
 }

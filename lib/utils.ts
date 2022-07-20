@@ -5,5 +5,7 @@ export const colors = {
     'light-gray': '#757B8C',
     'primary_blue': '#246CF9',
     'primary_gray_60': '#3C4254',
-    primary_gray_40:'#757B8C'
+    primary_gray_40:'#757B8C',
+    primary_gray_80:'#282C38',
+    primary_gray_20:'#E5E6ED',
 }
